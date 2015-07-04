@@ -1,0 +1,42 @@
+/* Your Styling */
+h1,
+p {
+	text-align: center;
+}
+
+div {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	margin: 0 auto;
+	text-align: center;
+	display: inline-block;
+}
+
+.list {
+	width: 90%;
+}
+
+.list img {
+	display: inline-block;
+	float: right;
+}
+
+div p {
+	position: absolute;
+	left: 1em;
+	font-size: 3em;
+	background: black;
+	color: white;
+}
+
+.top {
+	width: 100%;
+}
+
+.self {
+	float: none;
+	display: block;
+	width: 90%;
+}
+
+
