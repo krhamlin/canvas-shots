@@ -1,4 +1,8 @@
 /* Your Styling */
+body {
+	background: #D8F2EA;
+}
+
 h1,
 p {
 	text-align: center;
@@ -27,6 +31,7 @@ div p {
 	font-size: 3em;
 	background: black;
 	color: white;
+	box-shadow: 2px 2px 15px black;
 }
 
 .top {
@@ -39,4 +44,15 @@ div p {
 	width: 90%;
 }
 
+nav {
+	display: inline-block;
+	width: 95%;
+	text-align: center;
+}
 
+nav li {
+	list-style: none;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
